@@ -3,3 +3,4 @@ https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-event
 https://docs.github.com/en/rest/activity#ping-a-repository-webhook,A2
 https://docs.github.com/rest/reference/repos#get-repository-content,A14:format
 https://docs.github.com/en/rest/activity/events
+https://docs.github.com/en/rest/issues/events
