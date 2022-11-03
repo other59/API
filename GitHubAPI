@@ -6,5 +6,5 @@ githubapi repository file encoding: base64 decode
 https://docs.github.com/en/rest/activity/events
 https://docs.github.com/en/rest/issues/events
 https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
-https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues
-https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects
+https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues,%10
+https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects,%10
