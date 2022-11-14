@@ -2,13 +2,3 @@ https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhook
 https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads,A2
 https://docs.github.com/en/rest/activity#ping-a-repository-webhook,A2
 https://docs.github.com/rest/reference/repos#get-repository-content,A14:githubapi repository file encoding
-githubapi repository file encoding: base64 decode
-https://docs.github.com/en/rest/activity/events
-https://docs.github.com/en/rest/issues/events
-https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
-https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues,%10
-https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
-https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-code,A2
-https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects,%10
-https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
-https://docs.github.com/en/rest/repos/contents
