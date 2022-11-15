@@ -21,70 +21,70 @@ curl \
   
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/actioncsv/topics
   
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/fdb-swift-bindings/topics
   
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repositories
 
 ok  
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/user/repos
 
 Get repository content (https://docs.github.com/rest/reference/repos#get-repository-content)
 
 curl \
   -H "Accept: application/vnd.github.v3.raw" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/datasource/contents/data.csv
 status:response:ok,format:decode, Define an environment variable GITHUB_TOKEN before running√
 
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/actioncsv/contents/csv2.csv | base64 --decode
 status:response:| jq -r ".content" delete, Invalid character in input stream
 
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/actioncsv/contents/csv2.csv |  grep -F "content\":" 
 status:response: ok, need decode
 
 curl \
   -H "Accept: application/vnd.github.v3.raw" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/datasource/contents/data.csv 
 status:response: ok, need decode- replace vERSION on v3,repos piblic need, https://github.com/PyGithub/PyGithub/issues/576
 
 curl \
    -H "Accept: application/vnd.github+json" \
-   -H "Authorization: Bearer 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" \
+   -H "Authorization: Bearer <YOUR-TOKEN>" \
    https://api.github.com/repos/other59/docer/topics
 status:response: %100,nane:[],repos piblic need, https://github.com/PyGithub/PyGithub/issues/576
 
 curl \
    -H "Accept: application/vnd.github+json" \
-   -H "Authorization: Bearer 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" \
+   -H "Authorization: Bearer <YOUR-TOKEN>" \
    https://api.github.com/repos/other59/actioncsv/topics
 status:response: %100, "message": "Not Found",repos piblic need, https://github.com/PyGithub/PyGithub/issues/576
 
 curl  \
  -H "Accept: application/vnd.github.v3.raw"  \
- -H "Authorization: Bearer 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"  \ 
+ -H "Authorization: Bearer <YOUR-TOKEN>"  \ 
  https://api.github.com/repos/other59/API/contents/GitHubAPI
 status:response: ok, need decode, command not found, https://github.com/PyGithub/PyGithub/issues/576, replace vERSION on v3,ok
 
 curl \
   -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer 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" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
   https://api.github.com/repos/other59/docer/contents/actors 2.csv
