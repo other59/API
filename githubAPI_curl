@@ -45,7 +45,7 @@ Get repository content (https://docs.github.com/rest/reference/repos#get-reposit
 curl \
   -H "Accept: application/vnd.github.v3.raw" \
   -H "Authorization: Bearer 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" \
-  https://api.github.com/repos/other59/actioncsv/contents/data.csv
+  https://api.github.com/repos/other59/datasource/contents/data.csv
 status:response:ok,format:decode, Define an environment variable GITHUB_TOKEN before running√
 
 curl \
